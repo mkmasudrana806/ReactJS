@@ -1,11 +1,11 @@
- 
-import './App.css';
+import "./App.css";
+import Clock from "./components/Clock";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        
+        <Clock locale="bn-BD" />
       </header>
     </div>
   );
